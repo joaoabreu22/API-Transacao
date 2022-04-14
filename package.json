@@ -1,0 +1,23 @@
+{
+  "name": "desafio-arch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "João Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ioredis": "^4.28.10",
+    "express": "^4.17.3",
+    "ioredis": "^5.0.4",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15",
+    "promise-redis": "^0.0.5",
+    "redis": "^4.0.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}
